@@ -1,12 +1,18 @@
 import React, {useState} from 'react';
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native'; 
 
-const StartGameScreen = {props} => {
+const StartGameScreen = props => {
+    return (
+        <View style={styles.card}>
 
+        </View>
+    )
 }
 
 const styles = StyleSheet.create({
-    
+    card: {
+
+    }
 })
 
 export default StartGameScreen
