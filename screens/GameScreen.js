@@ -68,7 +68,7 @@ const GameScreen = (props) => {
           <Ionicons name='md-remove' size={24} color='white'/>
         </MainButton>
         <MainButton onPress={nextGuessHanlder.bind(this, "greater")}>
-          <Ionicons name='md-add' size={24} color='white'/>
+          <Ionicons name='md-add ' size={24} color='white'/>
         </MainButton>
       </Card>
     </View>
